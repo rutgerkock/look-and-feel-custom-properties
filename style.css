@@ -80,9 +80,8 @@ body {
 
 section {
     max-width: 17rem;
-    max-width: 17rem;
+    min-width: 17rem;
     padding: 1rem;
-    margin-right: 4rem;
 }
 
 h1 {    
