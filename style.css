@@ -74,6 +74,8 @@ body {
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
     color: var(--text-color);
+    display: flex;
+    flex-direction: row;
 }
 
 section {
@@ -116,4 +118,20 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+.button_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: var(--green);
+    color: var(--white-color);
+    transition: all 0.3s ease;
 }
