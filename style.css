@@ -96,6 +96,13 @@ h2 {
     font-family: var(--title-font);
 }
 
+h3 {
+    font-size: var(--h3-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--spat);
+    font-family: var(--title-font);
+}
+
 .portfolio__content {
     background-color: var(--white-color);
     border-radius: 0.5rem;
