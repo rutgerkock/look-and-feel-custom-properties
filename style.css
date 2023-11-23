@@ -83,7 +83,6 @@ section {
     min-width: 17rem;
     padding: 1rem;
     margin: 1rem;
-    background-color: var(--white-color);
 }
 
 h1 {    
@@ -109,6 +108,7 @@ h3 {
 .portfolio__content {
     border-radius: 0.5rem;
     box-shadow: 0 4px 6px rgba(174, 190, 205, .3);
+    background-color: var(--white-color);
 }
 
 .portfolio__img {
